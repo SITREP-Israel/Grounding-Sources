@@ -1,0 +1,11 @@
+slug: isw
+name: ISW / CTP — Iran Update
+category: osint
+homepage_url: https://understandingwar.org/
+domains:
+  - understandingwar.org
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

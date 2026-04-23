@@ -1,0 +1,12 @@
+slug: the-national
+name: The National (UAE)
+category: arab_gulf_media
+country: AE
+homepage_url: https://www.thenationalnews.com/
+domains:
+  - thenationalnews.com
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

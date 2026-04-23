@@ -1,0 +1,13 @@
+slug: mehr-news
+name: Mehr News
+category: iran_state_media
+country: IR
+homepage_url: https://en.mehrnews.com/
+domains:
+  - mehrnews.com
+  - en.mehrnews.com
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: true
+added: 2026-04-23
+status: active

@@ -1,0 +1,12 @@
+slug: inss
+name: INSS (Tel Aviv)
+category: think_tank
+country: IL
+homepage_url: https://www.inss.org.il/
+domains:
+  - inss.org.il
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

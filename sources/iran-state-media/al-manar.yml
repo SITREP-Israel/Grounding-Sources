@@ -1,0 +1,13 @@
+slug: al-manar
+name: Al-Manar TV
+category: iran_state_media
+country: LB
+homepage_url: https://english.almanar.com.lb/
+domains:
+  - almanar.com.lb
+  - english.almanar.com.lb
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: true
+added: 2026-04-23
+status: active

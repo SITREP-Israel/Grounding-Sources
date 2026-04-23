@@ -1,0 +1,11 @@
+slug: afp
+name: Agence France-Presse
+category: western_wire
+homepage_url: https://www.afp.com/en
+domains:
+  - afp.com
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

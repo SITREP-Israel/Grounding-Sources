@@ -1,0 +1,12 @@
+slug: arab-news
+name: Arab News
+category: arab_gulf_media
+country: SA
+homepage_url: https://www.arabnews.com/
+domains:
+  - arabnews.com
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

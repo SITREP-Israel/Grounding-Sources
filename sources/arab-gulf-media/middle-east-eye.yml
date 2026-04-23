@@ -1,0 +1,11 @@
+slug: middle-east-eye
+name: Middle East Eye
+category: arab_gulf_media
+homepage_url: https://www.middleeasteye.net/
+domains:
+  - middleeasteye.net
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

@@ -1,0 +1,12 @@
+slug: ynetnews
+name: Ynetnews
+category: israeli_media
+country: IL
+homepage_url: https://www.ynetnews.com/
+domains:
+  - ynetnews.com
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

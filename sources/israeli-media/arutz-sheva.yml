@@ -1,0 +1,12 @@
+slug: arutz-sheva
+name: Arutz Sheva
+category: israeli_media
+country: IL
+homepage_url: https://www.israelnationalnews.com/
+domains:
+  - israelnationalnews.com
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

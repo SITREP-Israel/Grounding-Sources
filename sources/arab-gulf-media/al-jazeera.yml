@@ -1,0 +1,12 @@
+slug: al-jazeera
+name: Al Jazeera English
+category: arab_gulf_media
+country: QA
+homepage_url: https://www.aljazeera.com/
+domains:
+  - aljazeera.com
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

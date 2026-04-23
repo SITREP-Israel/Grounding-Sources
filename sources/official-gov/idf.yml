@@ -1,0 +1,12 @@
+slug: idf
+name: IDF (English)
+category: official_gov
+country: IL
+homepage_url: https://www.idf.il/en/
+domains:
+  - idf.il
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

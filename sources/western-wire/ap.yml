@@ -1,0 +1,11 @@
+slug: ap
+name: Associated Press
+category: western_wire
+homepage_url: https://apnews.com/
+domains:
+  - apnews.com
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

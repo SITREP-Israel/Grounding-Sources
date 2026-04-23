@@ -1,0 +1,12 @@
+slug: us-centcom
+name: US CENTCOM
+category: official_gov
+country: US
+homepage_url: https://www.centcom.mil/
+domains:
+  - centcom.mil
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

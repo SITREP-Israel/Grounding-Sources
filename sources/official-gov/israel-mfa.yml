@@ -1,0 +1,12 @@
+slug: israel-mfa
+name: Israel MFA
+category: official_gov
+country: IL
+homepage_url: https://mfa.gov.il/
+domains:
+  - mfa.gov.il
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

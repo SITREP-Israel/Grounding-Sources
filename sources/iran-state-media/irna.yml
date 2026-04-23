@@ -1,0 +1,13 @@
+slug: irna
+name: IRNA
+category: iran_state_media
+country: IR
+homepage_url: https://en.irna.ir/
+domains:
+  - irna.ir
+  - en.irna.ir
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: true
+added: 2026-04-23
+status: active

@@ -1,0 +1,12 @@
+slug: press-tv
+name: Press TV
+category: iran_state_media
+country: IR
+homepage_url: https://www.presstv.ir/
+domains:
+  - presstv.ir
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: true
+added: 2026-04-23
+status: active

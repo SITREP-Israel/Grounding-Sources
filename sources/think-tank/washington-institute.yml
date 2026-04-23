@@ -1,0 +1,12 @@
+slug: washington-institute
+name: The Washington Institute
+category: think_tank
+country: US
+homepage_url: https://www.washingtoninstitute.org/
+domains:
+  - washingtoninstitute.org
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

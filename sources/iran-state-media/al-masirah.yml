@@ -1,0 +1,13 @@
+slug: al-masirah
+name: Al-Masirah
+category: iran_state_media
+country: YE
+homepage_url: https://english.almasirah.net.ye/
+domains:
+  - almasirah.net.ye
+  - english.almasirah.net.ye
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: true
+added: 2026-04-23
+status: active

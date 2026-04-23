@@ -1,0 +1,13 @@
+slug: idf-telegram
+name: IDF Spokesperson (Telegram)
+category: social_telegram
+country: IL
+homepage_url: https://t.me/idfofficial
+domains:
+  - t.me
+monitoring:
+  method: telegram
+  telegram_handle: idfofficial
+propaganda: false
+added: 2026-04-23
+status: active

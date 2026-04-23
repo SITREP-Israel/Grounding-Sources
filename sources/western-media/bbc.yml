@@ -1,0 +1,13 @@
+slug: bbc
+name: BBC News
+category: western_media
+country: GB
+homepage_url: https://www.bbc.com/news
+domains:
+  - bbc.com
+  - bbc.co.uk
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

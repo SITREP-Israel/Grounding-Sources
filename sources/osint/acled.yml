@@ -1,0 +1,11 @@
+slug: acled
+name: ACLED
+category: osint
+homepage_url: https://acleddata.com/
+domains:
+  - acleddata.com
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

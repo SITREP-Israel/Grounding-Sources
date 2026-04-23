@@ -37,9 +37,12 @@ Each source is a single YAML file under the category folder it belongs to. File 
 | `israeli_media` | Israeli domestic press (English or translated) |
 | `iran_state_media` | Iranian / Iran-aligned state outlets |
 | `arab_gulf_media` | Arab and Gulf press |
-| `western_wire` | Wire services and major Western outlets |
+| `western_wire` | Wire services (Reuters, AP, AFP) |
+| `western_media` | Major Western outlets (BBC, NYT, WSJ, Guardian, etc.) |
 | `social_telegram` | Monitored Telegram channels |
-| `osint` | OSINT accounts and aggregators |
+| `osint` | OSINT analysts and conflict-tracking aggregators |
+| `think_tank` | Research institutes and policy shops |
+| `dissident` | Diaspora / opposition outlets covering closed regimes |
 | `other` | Anything that doesn't fit the above |
 
 ## Monitoring methods

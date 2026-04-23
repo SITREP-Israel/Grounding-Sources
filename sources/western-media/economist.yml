@@ -1,0 +1,12 @@
+slug: economist
+name: The Economist
+category: western_media
+country: GB
+homepage_url: https://www.economist.com/
+domains:
+  - economist.com
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

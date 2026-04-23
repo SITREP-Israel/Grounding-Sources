@@ -1,0 +1,12 @@
+slug: lebanese-armed-forces
+name: Lebanese Armed Forces
+category: official_gov
+country: LB
+homepage_url: https://www.lebarmy.gov.lb/en
+domains:
+  - lebarmy.gov.lb
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

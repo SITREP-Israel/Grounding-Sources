@@ -1,0 +1,12 @@
+slug: times-of-israel
+name: Times of Israel
+category: israeli_media
+country: IL
+homepage_url: https://www.timesofisrael.com/
+domains:
+  - timesofisrael.com
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

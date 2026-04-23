@@ -1,0 +1,11 @@
+slug: long-war-journal
+name: Long War Journal
+category: osint
+homepage_url: https://www.longwarjournal.org/
+domains:
+  - longwarjournal.org
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

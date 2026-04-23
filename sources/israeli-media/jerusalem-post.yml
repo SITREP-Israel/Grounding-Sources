@@ -1,0 +1,12 @@
+slug: jerusalem-post
+name: Jerusalem Post
+category: israeli_media
+country: IL
+homepage_url: https://www.jpost.com/
+domains:
+  - jpost.com
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

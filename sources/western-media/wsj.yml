@@ -1,0 +1,12 @@
+slug: wsj
+name: Wall Street Journal
+category: western_media
+country: US
+homepage_url: https://www.wsj.com/
+domains:
+  - wsj.com
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

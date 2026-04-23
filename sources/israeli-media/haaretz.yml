@@ -1,0 +1,12 @@
+slug: haaretz
+name: Haaretz
+category: israeli_media
+country: IL
+homepage_url: https://www.haaretz.com/
+domains:
+  - haaretz.com
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

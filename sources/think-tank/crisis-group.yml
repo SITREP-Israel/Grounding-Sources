@@ -1,0 +1,11 @@
+slug: crisis-group
+name: International Crisis Group
+category: think_tank
+homepage_url: https://www.crisisgroup.org/
+domains:
+  - crisisgroup.org
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

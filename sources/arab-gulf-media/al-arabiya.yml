@@ -1,0 +1,13 @@
+slug: al-arabiya
+name: Al Arabiya English
+category: arab_gulf_media
+country: SA
+homepage_url: https://english.alarabiya.net/
+domains:
+  - alarabiya.net
+  - english.alarabiya.net
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

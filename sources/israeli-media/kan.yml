@@ -1,0 +1,12 @@
+slug: kan
+name: Kan News (English)
+category: israeli_media
+country: IL
+homepage_url: https://www.kan.org.il/eng/
+domains:
+  - kan.org.il
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active

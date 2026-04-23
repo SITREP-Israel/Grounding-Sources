@@ -1,0 +1,12 @@
+slug: tasnim
+name: Tasnim News
+category: iran_state_media
+country: IR
+homepage_url: https://www.tasnimnews.com/en
+domains:
+  - tasnimnews.com
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: true
+added: 2026-04-23
+status: active

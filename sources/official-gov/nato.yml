@@ -1,0 +1,11 @@
+slug: nato
+name: NATO Newsroom
+category: official_gov
+homepage_url: https://www.nato.int/
+domains:
+  - nato.int
+monitoring:
+  method: unknown  # TODO: confirm (rss | scrape | exa | manual)
+propaganda: false
+added: 2026-04-23
+status: active
