@@ -1,0 +1,32 @@
+name: Flag a source issue
+description: Report a problem with an existing source (broken feed, miscategorisation, stale entry, etc.)
+title: "[issue] "
+labels: ["source-issue"]
+body:
+  - type: input
+    id: slug
+    attributes:
+      label: Source slug
+      description: The slug / file name of the source (e.g. "reuters").
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of issue
+      options:
+        - broken feed / scrape
+        - miscategorised
+        - duplicate
+        - ceased publication
+        - should be flagged as propaganda
+        - should NOT be flagged as propaganda
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: Detail
+    validations:
+      required: true

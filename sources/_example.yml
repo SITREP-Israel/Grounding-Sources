@@ -1,0 +1,22 @@
+slug: reuters
+name: Reuters
+category: western_wire
+homepage_url: https://www.reuters.com/
+domains:
+  - reuters.com
+monitoring:
+  method: rss
+  feed_url: https://www.reuters.com/world/middle-east/rss
+  notes: >-
+    Middle East regional feed. Reuters occasionally rotates feed paths —
+    verify quarterly.
+language: en
+description: >-
+  International wire service. Treated as a primary first-order source for
+  breaking regional news and official statements relayed from governments.
+tags:
+  - wire
+  - breaking
+propaganda: false
+added: 2026-04-23
+status: active

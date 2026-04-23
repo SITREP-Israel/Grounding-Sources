@@ -1,0 +1,74 @@
+name: Suggest a source
+description: Propose a new source to be monitored by SITREP ISR
+title: "[source] "
+labels: ["source-suggestion"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Source name
+      placeholder: e.g. Times of Israel
+    validations:
+      required: true
+  - type: input
+    id: homepage
+    attributes:
+      label: Homepage URL
+      placeholder: https://...
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - official_gov
+        - israeli_media
+        - iran_state_media
+        - arab_gulf_media
+        - western_wire
+        - social_telegram
+        - osint
+        - other
+    validations:
+      required: true
+  - type: dropdown
+    id: method
+    attributes:
+      label: Proposed monitoring method
+      options:
+        - rss
+        - scrape
+        - telegram
+        - exa
+        - manual
+    validations:
+      required: true
+  - type: input
+    id: feed
+    attributes:
+      label: Feed URL / Telegram handle (if applicable)
+      placeholder: https://.../feed.xml  or  @channelname
+  - type: dropdown
+    id: propaganda
+    attributes:
+      label: Propaganda flag
+      description: Is this source state-controlled or state-aligned? (See README.)
+      options:
+        - "false"
+        - "true"
+        - "unsure"
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why should we monitor this source?
+      description: Beat, geographic relevance, why it adds signal over what's already covered.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Known quirks, paywalls, rate limits, affiliations worth noting.

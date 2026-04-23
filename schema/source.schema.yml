@@ -1,0 +1,41 @@
+# Canonical shape of a source entry.
+# One YAML file per source, filename = slug + ".yml", placed under sources/<category>/.
+
+slug: string            # required. lowercase-kebab, globally unique. e.g. "al-jazeera"
+name: string            # required. Human-readable display name. e.g. "Al Jazeera English"
+category: enum          # required. One of:
+                        #   official_gov | israeli_media | iran_state_media |
+                        #   arab_gulf_media | western_wire | social_telegram |
+                        #   osint | other
+country: string         # optional. ISO-3166 alpha-2, uppercase. e.g. "IL", "IR", "QA".
+                        # Omit for supranational bodies (UN, NATO, IAEA).
+homepage_url: string    # required. Canonical homepage or channel URL.
+domains:                # required. List of domains the pipeline treats as "this source".
+  - string              # Include all variants actually served (e.g. "mehrnews.com" AND "en.mehrnews.com").
+
+monitoring:             # required. How the pipeline ingests this source.
+  method: enum          #   rss | scrape | telegram | exa | manual
+  feed_url: string      #   required if method == rss
+  telegram_handle: string  # required if method == telegram (without the @)
+  notes: string         # optional. Quirks, rate limits, layout notes.
+
+language: string        # optional. Primary publication language (ISO-639-1). e.g. "en", "ar", "fa", "he".
+description: string     # required. One or two sentences: who publishes this, what beat, why we monitor it.
+
+tags:                   # optional. Free-form descriptive tags.
+  - string
+
+propaganda: bool        # optional. true if the source is state-controlled or state-aligned
+                        # and routinely publishes content intended to shape opinion on behalf
+                        # of a state or armed actor. Used by the pipeline to flag framing in
+                        # the reader UI. Default: false. Not a judgement of truthfulness —
+                        # propaganda sources are still monitored because adversary framing
+                        # is itself signal.
+
+editorial_note: string  # optional. Known bias, affiliation, or caveats worth flagging to readers.
+                        # Factual descriptions only ("state-affiliated", "IRGC-linked", "owned by X") —
+                        # not editorial opinions about trustworthiness.
+
+added: YYYY-MM-DD       # required. Date this entry was added to the inventory.
+updated: YYYY-MM-DD     # optional. Date last materially edited.
+status: enum            # optional. active | paused | retired   (default: active)
